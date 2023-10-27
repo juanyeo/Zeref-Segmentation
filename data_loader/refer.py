@@ -305,7 +305,7 @@ class REFER:
 
 
 if __name__ == '__main__':
-    refer = REFER(data_root='/home/s2/juanyeo/zeref/dataset/',dataset='refcoco', splitBy='unc')
+    refer = REFER(data_root='/shared/s2/lab01/dataset/zeref/',dataset='refcoco', splitBy='unc')
     ref_ids = refer.getRefIds()
 
     ref_ids = refer.getRefIds(split='train')

@@ -141,11 +141,11 @@ if __name__ == "__main__":
     import detectron2.data.datasets  # noqa # add pre-defined metadata
     import sys
 
-    REFCOCO_PATH = '/home/s2/juanyeo/zeref/dataset/'
+    REFCOCO_PATH = '/shared/s2/lab01/dataset/zeref/'
     REFCOCO_DATASET = 'refcoco'
     REFCOCO_SPLITBY = 'unc'
     REFCOCO_SPLIT = 'val'
-    COCO_TRAIN_2014_IMAGE_ROOT = '/home/s2/juanyeo/zeref/dataset/train2014'
+    COCO_TRAIN_2014_IMAGE_ROOT = '/shared/s2/lab01/dataset/zeref/train2014'
 
     logger = setup_logger(name=__name__)
 

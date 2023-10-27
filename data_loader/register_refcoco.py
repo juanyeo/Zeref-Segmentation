@@ -92,7 +92,7 @@ def register_grefcoco_full(root):
 
 
 #_root = os.getenv("DETECTRON2_DATASETS", "datasets")
-_root = '/home/s2/juanyeo/zeref/dataset/'
+_root = '/shared/s2/lab01/dataset/zeref/dataset/'
 register_refcoco(_root)
 register_grefcoco(_root)
 register_grefcoco_full(_root)

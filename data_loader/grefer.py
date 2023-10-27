@@ -337,7 +337,7 @@ class G_REFER:
         ax.imshow(msk)
 
 if __name__ == '__main__':
-    refer = G_REFER(data_root='/home/s2/juanyeo/zeref/dataset/',dataset='grefcoco', splitBy='unc')
+    refer = G_REFER(data_root='/shared/s2/lab01/dataset/zeref/',dataset='grefcoco', splitBy='unc')
     ref_ids = refer.getRefIds()
 
     ref_ids = refer.getRefIds(split='train')
