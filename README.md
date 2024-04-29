@@ -1,6 +1,5 @@
 <div align="center">
 <h1>Zero-Shot Referring Expression Segmentation based on CLIP</h1>
-<h3>전이학습 (송지우, 여주안, 차순우) 팀</h3>
 Zero-Shot Referring Expression Segmentation을 해결하기 위한 프로젝트 코드 Baseline
 </div>
 
